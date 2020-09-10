@@ -3,7 +3,7 @@ header {
 }
 
 h1 {
-  color: aqua;
+  color: rgb(167, 15, 238);
 }
 
 body {
@@ -12,4 +12,36 @@ body {
 
 body div {
   font-size: 20px;
+}
+
+table, th, td{
+  border: 2px solid tomato;
+  border-collapse: collapse;
+}
+
+th, td{
+  padding: 10px;
+}
+
+table{
+  border-spacing: 30px;
+}
+
+p{
+  border: 2px solid springgreen;
+  padding: 10px; /* space inside the border */
+  margin: 10px;  /* space outside the border */
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
 }
